@@ -35,9 +35,9 @@ nuevas. Solo se admite la versión más reciente de Power BI Desktop; a los clie
 
 En Power BI Desktop hay tres vistas disponibles, que se seleccionan en el lado izquierdo del lienzo. Las vistas, que se muestran en el orden en que aparecen, son las siguientes:
 
-* Informe: crea informes y objetos visuales y es donde se pasa la mayor parte del tiempo de creación.
-* Datos: se ven las tablas, las medidas y los demás datos que se usan en el modelo de datos asociado al informe y se transforman los datos para usarlos de la mejor manera posible en el modelo del informe.
-* Modelo: ve y administra las relaciones entre las tablas del modelo de datos.
+* `Informe`. Crea informes y objetos visuales y es donde se pasa la mayor parte del tiempo de creación.
+* `Datos`. Se ven las tablas, las medidas y los demás datos que se usan en el modelo de datos asociado al informe y se transforman los datos para usarlos de la mejor manera posible en el modelo del informe.
+* `Modelo`. Ve y administra las relaciones entre las tablas del modelo de datos.
 
 ## Conectar a datos
 
