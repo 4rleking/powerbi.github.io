@@ -27,5 +27,6 @@ En Julio del 2015 Microsoft lanza `Powerbi.com`, una solución *SaaS* basada en 
 
 ```text
 "En resúmen, Power BI no es algo nuevo o poco probado. Se ha estado cocinando lentamente por los últimos diez años.
-Combina la tecnología de el software de administración de datos mas usado del mundo (SQL Server) con el software de BI más popular del planeta (Excel) y mucho más".
+Combina la tecnología de el software de administración de datos mas usado del mundo (SQL Server) con el software
+de BI más popular del planeta (Excel) y mucho más".
 ```
