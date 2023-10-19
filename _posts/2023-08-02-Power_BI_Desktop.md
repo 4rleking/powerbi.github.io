@@ -29,7 +29,8 @@ Los usuarios que son responsables de esas tareas se suelen considerar analistas 
 
 ```text
 Importante
-Power BI Desktop se actualiza y se publica mensualmente, incorporando comentarios de los clientes y características nuevas. Solo se admite la versión más reciente de Power BI Desktop; a los clientes que se pongan en contacto con el servicio de soporte técnico de Power BI Desktop se les pedirá que actualicen su versión a la más reciente. Puede obtener la versión más reciente de Power BI Desktop desde Microsoft Store, o bien como un único archivo ejecutable con todos los idiomas admitidos que debe descargar e instalar en el equipo.
+Power BI Desktop se actualiza y se publica mensualmente, incorporando comentarios de los clientes y características
+nuevas. Solo se admite la versión más reciente de Power BI Desktop; a los clientes que se pongan en contacto con el servicio de soporte técnico de Power BI Desktop se les pedirá que actualicen su versión a la más reciente. Puede obtener la versión más reciente de Power BI Desktop desde Microsoft Store, o bien como un único archivo ejecutable con todos los idiomas admitidos que debe descargar e instalar en el equipo.
 ```
 
 En Power BI Desktop hay tres vistas disponibles, que se seleccionan en el lado izquierdo del lienzo. Las vistas, que se muestran en el orden en que aparecen, son las siguientes:
