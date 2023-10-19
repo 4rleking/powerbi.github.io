@@ -15,7 +15,7 @@ tags:
 
 ![](/assets/images/Desktop/Intro2.jpg)
 
-Power BI Desktop es una aplicación gratuita que se puede instalar en el equipo local y que permite conectarse a los datos, transformarlos y visualizarlos. Con Power BI Desktop, puede conectarse a varios orígenes de datos diferentes y combinarlos (lo que se suele denominar modelado) en un modelo de datos. Este modelo de datos permite compilar objetos visuales y colecciones de objetos visuales que puede compartir como informes, con otras personas de su organización. La mayoría de los usuarios que trabajan en proyectos de inteligencia empresarial usan Power BI Desktop para crear informes y luego usan el servicio Power BI para compartir los informes con otros.
+`Power BI Desktop` es una aplicación gratuita que se puede instalar en el equipo local y que permite conectarse a los datos, transformarlos y visualizarlos. Con *Power BI Desktop*, puede conectarse a varios orígenes de datos diferentes y combinarlos (lo que se suele denominar modelado) en un modelo de datos. Este modelo de datos permite compilar objetos visuales y colecciones de objetos visuales que puede compartir como informes, con otras personas de su organización. La mayoría de los usuarios que trabajan en proyectos de inteligencia empresarial usan *Power BI Desktop* para crear informes y luego usan el *servicio Power BI* para compartir los informes con otros.
 
 Los usos más comunes de Power BI Desktop son los siguientes:
 
@@ -25,10 +25,12 @@ Los usos más comunes de Power BI Desktop son los siguientes:
 * Crear informes que son colecciones de objetos visuales, en una o varias páginas de informes.
 * Compartir informes con otros usuarios mediante el servicio Power BI.
 
-Los usuarios que son responsables de esas tareas se suelen considerar analistas de datos (a los que a veces se hace referencia con el término analistas) o profesionales de inteligencia empresarial (a menudo conocidos como creadores de informes). Muchas personas que no se consideran analistas ni creadores de informes usan Power BI Desktop para crear informes atractivos o para extraer datos de varios orígenes. Pueden crear modelos de datos que luego pueden compartir con sus compañeros de trabajo y organizaciones.
+Los usuarios que son responsables de esas tareas se suelen considerar analistas de datos (a los que a veces se hace referencia con el término analistas) o profesionales de inteligencia empresarial (a menudo conocidos como creadores de informes). Muchas personas que no se consideran analistas ni creadores de informes usan *Power BI Desktop* para crear informes atractivos o para extraer datos de varios orígenes. Pueden crear modelos de datos que luego pueden compartir con sus compañeros de trabajo y organizaciones.
 
+```text
 Importante
 Power BI Desktop se actualiza y se publica mensualmente, incorporando comentarios de los clientes y características nuevas. Solo se admite la versión más reciente de Power BI Desktop; a los clientes que se pongan en contacto con el servicio de soporte técnico de Power BI Desktop se les pedirá que actualicen su versión a la más reciente. Puede obtener la versión más reciente de Power BI Desktop desde Microsoft Store, o bien como un único archivo ejecutable con todos los idiomas admitidos que debe descargar e instalar en el equipo.
+```
 
 En Power BI Desktop hay tres vistas disponibles, que se seleccionan en el lado izquierdo del lienzo. Las vistas, que se muestran en el orden en que aparecen, son las siguientes:
 
