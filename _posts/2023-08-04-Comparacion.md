@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Comparación de Power BI Desktop y el servicio Power BI
-excerpt: ""
+excerpt: "Esta sección menciona caracteristicas de los servicios de Power BI Desktop y el servicio Power BI, también menciona acerca de los planes, costos, beneficios, caracteristicas acerca de cada uno de los planes que ofrece Power BI."
 date: 2023-08-28
 classes: wide
 header:
