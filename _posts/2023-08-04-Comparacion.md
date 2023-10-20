@@ -30,7 +30,7 @@ El servicio Power BI se usa para realizar tareas como crear paneles, crear y com
 analizar y explorar los datos para descubrir información empresarial y mucho más.
 ```
 
-Entonces, `¿Qué es el servicio Power BI?`; se detallan muchas de las funcionalidades de dicho servicio. *La licencia determina qué acciones puede realizar en el servicio Power BI*. Para más información sobre las licencias, consulte [Licencias y suscripciones de Power BI](https://learn.microsoft.com/es-es/power-bi/enterprise/service-admin-licensing-organization); para comparar planes y precios consulte [Precios de Power BI](https://powerbi.microsoft.com/es-mx/pricing/); par comparar las caracteristicas de cada uno de los planes consulte [Planes de Power BI](https://powerbi.microsoft.com/es-mx/pricing/#features-compare-charts).
+Entonces, `¿Qué es el servicio Power BI?`; se detallan muchas de las funcionalidades de dicho servicio. *La licencia determina qué acciones puede realizar en el servicio Power BI*. Para más información sobre las licencias, consulte [Licencias y suscripciones de Power BI](https://learn.microsoft.com/es-es/power-bi/enterprise/service-admin-licensing-organization); para comparar planes y precios consulte [Precios de Power BI](https://powerbi.microsoft.com/es-mx/pricing/); para comparar las caracteristicas de cada uno de los planes consulte [Planes de Power BI](https://powerbi.microsoft.com/es-mx/pricing/#features-compare-charts).
 
 Los editores de informes en Power BI Desktop y en el servicio Power BI son similares. Constan de tres secciones:
 
