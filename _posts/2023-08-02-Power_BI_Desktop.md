@@ -138,7 +138,7 @@ Debe tener una licencia de Power BI para compartir informes en el servicio Power
 
 ## Pasos siguientes
 
-Para empezar a trabajar con Power BI Desktop, lo primero que necesita es descargar e instalar la aplicación. Hay varias maneras de obtener Power BI Desktop:
+Para empezar a trabajar con Power BI Desktop, lo primero que necesita es descargar e instalar la aplicación. *Hay varias maneras de obtener Power BI Desktop*:
 
 * [Obtención de Power BI Desktop desde Microsoft Store](https://aka.ms/pbidesktopstore)
 * [Obtener Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/fundamentals/desktop-get-the-desktop)
