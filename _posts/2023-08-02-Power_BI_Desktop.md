@@ -59,7 +59,16 @@ Para conectarse a los datos:
     <img src='./../assets/images/Desktop/Datos_00.png'>
 </center>
 
+<center>
+    <img src='./../assets/images/Desktop/Datos_01.png'>
+</center>
+
 2. Cuando se selecciona un tipo de datos, se le pide información, como la dirección URL y las credenciales, necesaria para que Power BI Desktop se conecte al origen de datos en su nombre.
+
+<center>
+    <img src='./../assets/images/Desktop/Datos_02.png'>
+</center
+
 3. Una vez conectado a uno o más orígenes de datos, puede que quiera transformar los datos para que le resulten útiles.
 
 ## Transformación y limpieza de datos y creación de un modelo
