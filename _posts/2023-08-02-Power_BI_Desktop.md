@@ -54,6 +54,11 @@ Para conectarse a los datos:
 
 1. En la cinta Inicio, seleccione Obtener datos>Más.
     * Aparece la ventana Obtener datos, que muestra muchas categorías a las que Power BI Desktop puede conectarse.
+
+<center>
+    <img src='./../assets/images/Desktop/Datos_00.png'>
+</center>
+
 2. Cuando se selecciona un tipo de datos, se le pide información, como la dirección URL y las credenciales, necesaria para que Power BI Desktop se conecte al origen de datos en su nombre.
 3. Una vez conectado a uno o más orígenes de datos, puede que quiera transformar los datos para que le resulten útiles.
 
