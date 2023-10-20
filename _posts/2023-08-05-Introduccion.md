@@ -5,7 +5,7 @@ excerpt: ""
 date: 2023-08-27
 classes: wide
 header:
-  teaser: /assets/images/
+  teaser: /assets/images/Introduccion2/Intro1.jpeg
   teaser_home_page: true
 categories:
   - 
@@ -13,7 +13,7 @@ tags:
   - 
 ---
 
-![](/assets/images/)
+![](/assets/images/Introduccion2/Intro2.jpg)
 
 Bienvenido a la guía de introducción de Power BI Desktop. En este paseo se muestra cómo funciona Power BI Desktop, lo que puede hacer y cómo crear modelos de datos eficaces e informes increíbles para ampliar la inteligencia empresarial.
 
