@@ -67,7 +67,7 @@ Aparece la ventana Obtener datos, que muestra muchas categorías a las que Power
 
 <center>
     <img src='./../assets/images/Desktop/Datos_02.png'>
-</center
+</center>
 
 * Una vez conectado a uno o más orígenes de datos, puede que quiera transformar los datos para que le resulten útiles.
 
