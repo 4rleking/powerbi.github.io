@@ -125,14 +125,16 @@ Con *Power BI Desktop*, puede crear informes complejos y de gran riqueza visual 
 
 ## Compartir informes
 
-Una vez que está listo para compartir con otras personas, puede publicar el informe en el servicio Power BI y ponerlo a disposición de cualquier persona de la organización que tenga una licencia de Power BI.
+Una vez que está listo para compartir con otras personas, puede publicar el informe en el `servicio Power BI` y ponerlo a disposición de cualquier persona de la organización que tenga una *licencia de Power BI*.
 
 Para publicar un informe de Power BI Desktop:
 
-1. Seleccione Publicar en la cinta Inicio. Power BI Desktop se conecta al servicio Power BI con la cuenta de Power BI.
+1. Seleccione en la cinta `Inicio` la opción `Publicar`. Power BI Desktop se conecta al servicio Power BI con la cuenta de Power BI.
 2. Se le pedirá que seleccione dónde quiere compartir el informe en el servicio Power BI. Por ejemplo, el área de trabajo, un área de trabajo de equipo o alguna otra ubicación del servicio Power BI.
 
+```text
 Debe tener una licencia de Power BI para compartir informes en el servicio Power BI.
+```
 
 ## Pasos siguientes
 
