@@ -82,12 +82,19 @@ Es como esculpir: se empieza con un gran bloque de barro (o datos), luego se qui
 
 Para iniciar el Editor de Power Query:
 
-* En la sección Consultas de la cinta Inicio, seleccione Transformar datos.
+* En la cinta `Inicio` > sección `Consultas`, seleccione `Transformar datos`.
+
+<center>
+    <img src='./../assets/images/Desktop/Datos_03.png'>
+</center>
+
 * Aparece la ventana Editor de Power Query.
 
-Cada paso que se da para transformar datos (como cambiar el nombre de una tabla, transformar un tipo de datos o eliminar una columna) se registra con el Editor de Power Query. Cada vez que esta consulta se conecta al origen de datos, se ejecutan esos pasos de modo que los datos siempre tengan la forma especificada.
+<center>
+    <img src='./../assets/images/Desktop/Datos_04.png'>
+</center>
 
-En la imagen siguiente se muestra la ventana Editor de Power Query de una consulta a la que se dio forma y se ha convertido en un modelo.
+Cada paso que se da para transformar datos (como cambiar el nombre de una tabla, transformar un tipo de datos o eliminar una columna) se registra con el Editor de Power Query. Cada vez que esta consulta se conecta al origen de datos, se ejecutan esos pasos de modo que los datos siempre tengan la forma especificada.
 
 Una vez que los datos tienen la forma deseada, puede crear objetos viduales.
 
