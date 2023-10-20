@@ -77,7 +77,8 @@ Aparece la ventana Obtener datos, que muestra muchas categorías a las que Power
 En Power BI Desktop, puede limpiar y transformar los datos con el [Editor de Power Query integrado](https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-query-overview). Con el Editor de Power Query, puede realizar modificaciones en los datos, como cambiar un tipo de datos, quitar columnas o combinar datos de varios orígenes.
 
 ```text
-Es como esculpir: se empieza con un gran bloque de barro (o datos), luego se quitan trozos o se agregan otros según sea necesario, hasta que los datos adoptan la forma deseada.
+Es como esculpir: se empieza con un gran bloque de barro (o datos), luego se quitan trozos o se agregan
+otros según sea necesario, hasta que los datos adoptan la forma deseada.
 ```
 
 Para iniciar el Editor de Power Query:
