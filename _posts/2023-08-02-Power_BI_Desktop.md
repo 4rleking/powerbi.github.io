@@ -117,11 +117,11 @@ Si no hay ningún objeto visual seleccionado en el lienzo, se crea un nuevo obje
 
 ## Crear informes
 
-Lo más frecuente es que quiera crear una colección de objetos visuales que muestre diversos aspectos de los datos usados para crear el modelo en Power BI Desktop. A una colección de objetos visuales, en un archivo de Power BI Desktop, se le denomina informe. Un informe puede tener una o varias páginas, al igual que un archivo de Excel puede tener uno o varias hojas de cálculo.
+Lo más frecuente es que quiera crear una `colección de objetos visuales` que muestre diversos aspectos de los datos usados para crear el modelo en *Power BI Desktop*.
 
-Con Power BI Desktop, puede crear informes complejos y de gran riqueza visual mediante los datos de varios orígenes, todo en un informe que se puede compartir con otros usuarios de la organización.
+A una colección de objetos visuales, en un archivo de Power BI Desktop, se le denomina `informe`. Un informe puede tener una o varias páginas, al igual que un archivo de Excel puede tener uno o varias hojas de cálculo.
 
-En la siguiente imagen se ve la primera página de un informe de Power BI Desktop denominado Información general, como se observa en la pestaña situada en la parte inferior de la imagen.
+Con *Power BI Desktop*, puede crear informes complejos y de gran riqueza visual mediante los datos de varios orígenes, todo en un informe que se puede compartir con otros usuarios de la organización.
 
 ## Compartir informes
 
