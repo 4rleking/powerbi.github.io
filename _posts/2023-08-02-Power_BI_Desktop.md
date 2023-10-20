@@ -97,15 +97,19 @@ Para iniciar el Editor de Power Query:
 
 Cada paso que se da para transformar datos (como cambiar el nombre de una tabla, transformar un tipo de datos o eliminar una columna) se registra con el Editor de Power Query. Cada vez que esta consulta se conecta al origen de datos, se ejecutan esos pasos de modo que los datos siempre tengan la forma especificada.
 
-Una vez que los datos tienen la forma deseada, puede crear objetos viduales.
+Una vez que los datos tienen la forma deseada, puede crear objetos visuales.
 
 ## Creación de objetos visuales
 
-Una vez que se tiene un modelo de datos, se pueden arrastrar campos al lienzo del informe para crear objetos visuales. Un objeto visual es una representación gráfica de los datos del modelo. Hay muchos tipos diferentes de objetos visuales entre los que elegir en Power BI Desktop. En el siguiente objeto visual se muestra un gráfico de columna simple.
+Una vez que se tiene un modelo de datos, se pueden arrastrar campos al lienzo del informe para crear objetos visuales. Un `objeto visual` es una representación gráfica de los datos del modelo. Hay muchos tipos diferentes de objetos visuales entre los que elegir en Power BI Desktop. En el siguiente objeto visual se muestra un gráfico de columna simple.
 
 Para crear o cambiar un objeto visual:
 
-* En el panel Visualizaciones, seleccione el icono Crear objeto visual.
+* En el panel `Visualizaciones`, seleccione el icono `Crear objeto visual`.
+
+<center>
+    <img src='./../assets/images/Desktop/Datos_05.png'>
+</center>
 
 Si ya tiene un objeto visual seleccionado en el lienzo del informe, cambia al tipo seleccionado.
 
