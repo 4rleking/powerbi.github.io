@@ -46,6 +46,10 @@ En Power BI Desktop hay tres vistas disponibles, que se seleccionan en el lado i
 
 Para empezar a trabajar con Power BI Desktop, el primer paso es conectarse a los datos. Hay muchos orígenes de datos distintos a los que es posible conectarse desde *Power BI Desktop*.
 
+<center>
+    <img src='./../assets/images/Desktop/Datos.png'>
+</center>
+
 Para conectarse a los datos:
 
 1. En la cinta Inicio, seleccione Obtener datos>Más.
