@@ -58,7 +58,7 @@ Aparece la ventana Obtener datos, que muestra muchas categorías a las que Power
 <center>
     <img src='./../assets/images/Desktop/Datos_00.png'>
 </center>
-
+<br />
 <center>
     <img src='./../assets/images/Desktop/Datos_01.png'>
 </center>
