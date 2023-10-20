@@ -15,12 +15,11 @@ tags:
 
 ![](/assets/images/Introduccion2/Intro2.jpg)
 
-Bienvenido a la guía de introducción de Power BI Desktop. En este paseo se muestra cómo funciona Power BI Desktop, lo que puede hacer y cómo crear modelos de datos eficaces e informes increíbles para ampliar la inteligencia empresarial.
-
-Para obtener una visión general rápida del funcionamiento de Power BI Desktop y cómo usarlo, puede examinar las pantallas de esta guía en solo unos minutos. Para obtener una descripción más completa, puede leer cada sección, realizar los pasos descritos y crear un archivo de Power BI Desktop propio para publicarlo en el [servicio Power BI](https://app.powerbi.com/) y compartirlo con otros usuarios.
-
+```text
 Importante
-Puede obtener la versión más reciente de Power BI Desktop desde Microsoft Store, o bien como un único archivo ejecutable con todos los idiomas admitidos que debe descargar e instalar en el equipo.
+Puede obtener la versión más reciente de Power BI Desktop desde Microsoft Store, o bien como un
+único archivo ejecutable con todos los idiomas admitidos que debe descargar e instalar en el equipo.
+```
 
 ## Funcionamiento de Power BI Desktop
 
@@ -29,11 +28,13 @@ Con Power BI Desktop, puede:
 * Conectarse a datos, incluidos varios orígenes de datos.
 * Dar forma a los datos con consultas que generan modelos de datos atractivos e interesantes.
 * Usar los modelos de datos para crear visualizaciones e informes.
-* Compartir los archivos de informe para que otros usuarios puedan aprovecharlos, ampliarlos y compartirlos. Puede compartir los archivos .pbix de Power BI Desktop como cualquier otro archivo, pero el método más atractivo consiste en cargarlos en el [servicio Power BI](https://preview.powerbi.com/).
+* Compartir los archivos de informe para que otros usuarios puedan aprovecharlos, ampliarlos y compartirlos.
 
-Power BI Desktop integra tecnologías probadas del motor de consultas de Microsoft, modelado de datos y visualización. Los analistas de datos y otros usuarios pueden crear colecciones de consultas, conexiones de datos, modelos e informes, y compartirlos fácilmente con otros. A través de la combinación de Power BI Desktop y el servicio Power BI, es más fácil modelar, compilar, compartir y extender nuevas conclusiones del mundo de los datos.
+Puede compartir los archivos `.pbix` de Power BI Desktop como cualquier otro archivo, pero el método más atractivo consiste en cargarlos en el [servicio Power BI](https://preview.powerbi.com/).
 
-Power BI Desktop centraliza, simplifica y agiliza lo que de otro modo podría ser un proceso de diseño y creación de repositorios e informes de inteligencia empresarial disperso, arduo y desconectado. ¿Listo para probarlo? Empecemos.
+Power BI Desktop integra tecnologías probadas del motor de consultas de Microsoft, modelado de datos y visualización. Los analistas de datos y otros usuarios pueden crear colecciones de consultas, conexiones de datos, modelos e informes, y compartirlos fácilmente con otros. A través de la combinación de *Power BI Desktop* y el *servicio Power BI*, es más fácil modelar, compilar, compartir y extender nuevas conclusiones del mundo de los datos.
+
+`Power BI Desktop` centraliza, simplifica y agiliza lo que de otro modo podría ser un proceso de diseño y creación de repositorios e informes de inteligencia empresarial disperso, arduo y desconectado.
 
 ## Instalar y ejecutar Power BI Desktop
 
