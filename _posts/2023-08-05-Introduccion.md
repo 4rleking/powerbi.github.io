@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Introducción a Power BI Desktop
-excerpt: ""
+excerpt: "Ya tenemos instalado el software; ahora se explica cada una de las opciones que maneja este programa, así como algunos ejemplos. Esta introducción es muy general, poco a poco se estará mejorando las practicas en los siguientes capitulos."
 date: 2023-08-27
 classes: wide
 header:
@@ -30,7 +30,7 @@ Con Power BI Desktop, puede:
 * Usar los modelos de datos para crear visualizaciones e informes.
 * Compartir los archivos de informe para que otros usuarios puedan aprovecharlos, ampliarlos y compartirlos.
 
-Puede compartir los archivos `.pbix` de Power BI Desktop como cualquier otro archivo, pero el método más atractivo consiste en cargarlos en el [servicio Power BI](https://preview.powerbi.com/).
+Puede compartir los archivos `.pbix` de *Power BI Desktop* como cualquier otro archivo, pero el método más atractivo consiste en cargarlos en el [servicio Power BI](https://preview.powerbi.com/).
 
 Power BI Desktop integra tecnologías probadas del motor de consultas de Microsoft, modelado de datos y visualización. Los analistas de datos y otros usuarios pueden crear colecciones de consultas, conexiones de datos, modelos e informes, y compartirlos fácilmente con otros. A través de la combinación de *Power BI Desktop* y el *servicio Power BI*, es más fácil modelar, compilar, compartir y extender nuevas conclusiones del mundo de los datos.
 
@@ -40,95 +40,97 @@ Power BI Desktop integra tecnologías probadas del motor de consultas de Microso
 
 Para descargar Power BI Desktop, vaya a la [página de descarga de Power BI Desktop](https://powerbi.microsoft.com/desktop) y seleccione Descarga gratuita. O, para las opciones de descarga, seleccione [Consulte las opciones de descarga](https://www.microsoft.com/download/details.aspx?id=58494) o idiomas disponibles.
 
-También puede descargar Power BI Desktop desde el servicio Power BI. Seleccione el icono Descargar en la barra de menús superior y, después, seleccione Power BI Desktop.
+También puede descargar *Power BI Desktop* desde el servicio Power BI. Seleccione el icono Descargar en la barra del menú superior y, después, seleccione *Power BI Desktop*.
 
-En la página de Microsoft Store, seleccione Obtener y siga las indicaciones para instalar Power BI Desktop en el equipo. Inicie Power BI Desktop desde el menú Inicio de Windows o desde el icono de la barra de tareas de Windows.
+En la página de Microsoft Store, seleccione *Obtener* y siga las indicaciones para instalar *Power BI Desktop* en el equipo. Inicie Power BI Desktop desde el menú Inicio de Windows o desde el icono de la barra de tareas de Windows.
 
 La primera vez que se inicia Power BI Desktop, se muestra la pantalla de bienvenida.
 
-En la pantalla de bienvenida, puede obtener datos, ver orígenes recientes, abrir informes recientes, abrir otros informeso seleccionar otros vínculos. Seleccione el icono Cerrar para cerrar la pantalla de bienvenida.
+<center>
+    <img src='./../assets/images/Introduccion2/Session_00.png'>
+</center>
+
+En la pantalla de bienvenida, puede obtener datos, ver orígenes recientes, abrir informes recientes, abrir otros informes o seleccionar otros vínculos. Seleccione el icono Cerrar para cerrar la pantalla de bienvenida.
 
 En el lado izquierdo de Power BI Desktop, aparecen los iconos de las tres vistas de Power BI Desktop: Informe, Datos y Modelo, en orden descendente. La vista actual se indica mediante la barra amarilla situada a la izquierda y puede cambiar de vista si selecciona cualquiera de los iconos.
 
-Si usa la navegación mediante el teclado, presione Ctrl + F6 para mover el enfoque a esa sección de botones en la ventana. Para más información sobre la accesibilidad y Power BI, consulte los artículos relacionados con la [accesibilidad](https://learn.microsoft.com/es-es/power-bi/create-reports/desktop-accessibility-creating-tools).
+<center>
+    <img src='./../assets/images/Introduccion2/Session_01.png'>
+</center>
 
-Power BI Desktop también incluye el Editor de Power Query, que se abre en una ventana independiente. En el Editor de Power Query, puede crear consultas y transformar datos, y después cargar el modelo de datos refinados en Power BI Desktop para crear informes.
+Si usa la navegación mediante el teclado, presione `Ctrl + F6` para mover el enfoque a esa sección de botones en la ventana. Para más información sobre la accesibilidad y Power BI, consulte los artículos relacionados con la [accesibilidad](https://learn.microsoft.com/es-es/power-bi/create-reports/desktop-accessibility-creating-tools).
+
+*Power BI Desktop* también incluye el `Editor de Power Query`, que se abre en una ventana independiente.
+
+En el Editor de Power Query, puede crear consultas y transformar datos, y después cargar el modelo de datos refinados en Power BI Desktop para crear informes.
 
 ## Conectar a datos
 
-Con Power BI Desktop instalado, está listo para conectarse con el mundo de los datos en continua expansión. Para ver los numerosos tipos de orígenes de datos disponibles, seleccione Obtener datos>Más en la pestaña Inicio de Power BI Desktop y, en la ventana Obtener datos, desplácese por la lista Todo de orígenes de datos. En este paseo rápido, se conectará a dos orígenes de datos web diferentes.
+Con *Power BI Desktop* instalado, está listo para conectarse con el mundo de los datos en continua expansión. Para ver los numerosos tipos de orígenes de datos disponibles, seleccione en la pestaña `Inicio` la opción `Obtener datos`> `Más` de *Power BI Desktop* y, en la ventana `Obtener datos`, desplácese por la lista `Todo` de orígenes de datos. En este paseo rápido, se conectará a dos orígenes de datos web diferentes.
 
-Imagine que es un analista de datos que trabaja para un distribuidor de gafas de sol. Quiere ayudar al cliente a que dirija la venta de gafas de sol a zonas donde siempre brille el sol. La página sobre los [mejores y peores estados para jubilarse](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/) en Bankrate.com contiene datos interesantes al respecto.
-
-En la pestaña Inicio de Power BI Desktop, seleccione Obtener datos>Web para conectarse a un origen de datos web.
-
-En el cuadro de diálogo Desde la web, pegue la dirección *https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/* en el campo URL y luego seleccione Aceptar.
-
-Si se le solicita, en la pantalla Acceder a contenido web, seleccione Conectar para usar el acceso anónimo.
-
-La funcionalidad de consulta de Power BI Desktop entra en acción y contacta con el recurso web. En la ventana Navegador se devuelve lo que se ha encontrado en la página web, en este caso, una tabla HTML denominada Clasificación de los mejores y peores estados para jubilarse y otras cinco tablas sugeridas. Como le interesa la tabla HTML, selecciónela para obtener una vista previa.
-
-En este momento, puede seleccionar Cargar para cargar la tabla, o bien Transformar datos para realizar cambios en la tabla antes de cargarlos.
-
-Al seleccionar Transformar datos, se inicia el Editor de Power Query, con una vista representativa de la tabla. El panel Configuración de la consulta está a la derecha, o bien puede mostrarlo si selecciona Configuración de la consulta en la pestaña Vista del Editor de Power Query.
+<center>
+    <img src='./../assets/images/Desktop/Datos_01.png'>
+</center>
 
 Para obtener más información sobre cómo conectarse a los datos, vea [Conectarse a los datos en Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-connect-to-data).
 
 ## Dar forma a los datos
 
-Ahora que se ha conectado a un origen de datos, puede ajustar los datos según sea necesario. Para dar forma a los datos, proporcione al Editor de Power Query instrucciones paso a paso para ajustar los datos mientras los carga y presenta. La operación de dar forma no afecta al origen de datos original, solo a esta vista concreta de los datos.
+Ahora que se ha conectado a un origen de datos, puede ajustar los datos según sea necesario. Para dar forma a los datos, proporcione al *Editor de Power Query* instrucciones paso a paso para ajustar los datos mientras los carga y presenta. La operación de dar forma no afecta al origen de datos original, solo a esta vista concreta de los datos.
 
+```text
+El modelado puede significar transformar los datos, como cambiar el nombre de columnas o tablas,
+quitar filas o columnas, o cambiar tipos de datos.
+```
+
+El Editor de Power Query captura estos pasos secuencialmente en `Pasos aplicados` en el panel `Configuración` de la consulta.
+
+```text
+Cada vez que esta consulta se conecte al origen de datos, se ejecutan esos pasos,
+para que los datos siempre tengan la forma especificada.
+```
+
+```text
+Nota Importante
+
+Este proceso se produce siempre que se usa la consulta en *Power BI Desktop*, o bien cuando alguien más use la consulta compartida, como en el servicio Power BI.
+
+La importancia de utilizar el servicio Power BI, con licencia PRO, es que por medio de este servicio se actualizan los informes en automatico, y no tener que enviar los informes cada que se vuelven actualizar en el Software Power BI Desktop.
+```
+
+Tenga en cuenta que en `Pasos aplicados` en `Configuración` de la consulta ya se incluyen algunos pasos. 
+
+Puede seleccionar cada paso para *ver su efecto* en el `Editor de Power Query`. En primer lugar, ha especificado un *origen web* y, después, ha visto una *vista previa* de la tabla en la ventana Navegador. En el tercer paso, `Tipo cambiado`, Power BI ha reconocido datos de número entero al importarlos y ha cambiado de forma automática el *Tipo de datos* "Texto web original" a "Números enteros".
+
+Si necesita *cambiar un tipo de datos*, seleccione la columna o las columnas que desee modificar. Mantenga presionada la tecla `Mayús (Shift)` para seleccionar varias columnas adyacentes o la tecla `Ctrl` para seleccionar columnas no adyacentes. Haga clic con el botón derecho en un encabezado de columna, seleccione `Tipo cambiado`, elija un *nuevo tipo de datos* en el menú, o bien, en la lista desplegable situada junto a *Tipo de datos* en la pestaña `Inicio` el grupo `Transformar`, seleccione un *tipo de datos nuevo*.
+
+<center>
+    <img src='./../assets/images/Introduccion2/Session_02.png'>
+</center>
+
+```text
 Nota
-Es posible que los datos de la tabla que se usan en esta guía cambien con el tiempo. Por eso, los pasos que debe seguir pueden variar, por lo que tendrá que ser creativo y ajustar los pasos o los resultados; esto es parte de la diversión del aprendizaje.
+El Editor de Power Query de Power BI Desktop usa la cinta de opciones o los menús contextuales para
+las tareas disponibles. La mayor parte de las tareas que puede seleccionar en las pestañas Inicio
+o Transformar también están disponibles en el menú que aparece al hacer clic con el botón derecho en
+un elemento y realizar una selección en el menú que aparece.
+```
 
-El modelado puede significar transformar los datos, como cambiar el nombre de columnas o tablas, quitar filas o columnas, o cambiar tipos de datos. El Editor de Power Query captura estos pasos secuencialmente en Pasos aplicados en el panel Configuración de la consulta. Cada vez que esta consulta se conecte al origen de datos, se ejecutan esos pasos, para que los datos siempre tengan la forma especificada. Este proceso se produce siempre que se usa la consulta en Power BI Desktop, o bien cuando alguien más use la consulta compartida, como en el servicio Power BI.
-
-Tenga en cuenta que en Pasos aplicados en Configuración de la consulta ya se incluyen algunos pasos. Puede seleccionar cada paso para ver su efecto en el Editor de Power Query. En primer lugar, ha especificado un origen web y, después, ha visto una vista previa de la tabla en la ventana Navegador. En el tercer paso, Tipo cambiado, Power BI ha reconocido datos de número entero al importarlos y ha cambiado de forma automática el Tipo de datosTexto web original a Números enteros.
-
-Si necesita cambiar un tipo de datos, seleccione la columna o las columnas que desee modificar. Mantenga presionada la tecla Mayús para seleccionar varias columnas adyacentes o la tecla Ctrl para seleccionar columnas no adyacentes. Haga clic con el botón derecho en un encabezado de columna, seleccione Tipo cambiado, elija un nuevo tipo de datos en el menú, o bien, en la lista desplegable situada junto a Tipo de datos en el grupo Transformación de la pestaña Inicio, seleccione un tipo de datos nuevo.
-
-Nota
-El Editor de Power Query de Power BI Desktop usa la cinta de opciones o los menús contextuales para las tareas disponibles. La mayor parte de las tareas que puede seleccionar en las pestañas Inicio o Transformar también están disponibles en el menú que aparece al hacer clic con el botón derecho en un elemento y realizar una selección en el menú que aparece.
-
-Ahora puede aplicar cambios y transformaciones propios a los datos y verlos en Pasos aplicados.
-
-Por ejemplo, en el caso de las ventas de gafas de sol, lo que más le interesa es la clasificación meteorológica, por lo que decide ordenar la tabla por la columna Weather (Tiempo) en lugar de Overall rank (Clasificación general). Baje la flecha situada junto al encabezado Weather y seleccione Orden ascendente. Ahora los datos aparecen ordenados por clasificación meteorológica y el paso Filas ordenadas aparece en Pasos aplicados.
-
-No le interesa mucho vender gafas de sol en los estados con peor clima, por lo que decide quitarlos de la tabla. En la pestaña Inicio, seleccione Reducir filas>Quitar filas>Quitar filas inferiores. En el cuadro de diálogo Quitar filas inferiores, escriba 10 y, después, seleccione Aceptar.
-
-Se quitan de la tabla las 10 filas inferiores con el peor clima y el paso Filas inferiores quitadas aparece en Pasos aplicados.
-
-Decide que la tabla tiene demasiada información adicional para sus necesidades y quita las columnas Affordability (Asequibilidad), Crime (Delitos), Culture (Cultura) y Wellness (Bienestar). Seleccione el encabezado de cada columna que quiera quitar. Mantenga presionada la tecla Mayús para seleccionar varias columnas adyacentes o la tecla Ctrl para seleccionar columnas no adyacentes.
-
-Después, en el grupo Administrar columnas de la pestaña Inicio, seleccione Quitar columnas. También puede hacer clic con el botón derecho en uno de los encabezados de columna seleccionados y seleccionar Quitar columnas en el menú. Las columnas seleccionadas se eliminan y el paso Columnas eliminadas aparece en Pasos aplicados.
-
-Pensándolo mejor, Affordability podría ser relevante para las ventas de gafas de sol. Le gustaría volver a recuperar esa columna. Puede deshacer fácilmente el último paso del panel Pasos aplicados si selecciona el icono Eliminar X situado junto al paso. Ahora rehaga el paso, y seleccione solo las columnas que quiera eliminar. Para mayor flexibilidad, puede eliminar cada columna en un paso independiente.
-
-Puede hacer clic con el botón derecho en cualquier paso del panel Pasos aplicados para eliminarlo, cambiarle el nombre, subirlo o bajarlo en la secuencia, o agregar o eliminar pasos después de este. En el caso de los pasos intermedios, Power BI Desktop le avisará si el cambio puede afectar a los pasos posteriores e interrumpir la consulta.
-
-Por ejemplo, si ya no quiere ordenar la tabla por Weather, podría intentar eliminar el paso Filas ordenadas. Power BI Desktop le advierte de que la eliminación de este paso podría interrumpir la consulta. Ha quitado las 10 filas inferiores después de ordenar por condiciones meteorológicas, por lo que si quita el orden, se quitarán otras filas. También recibirá una advertencia si selecciona el paso Filas ordenadas e intenta agregar un nuevo paso intermedio en ese punto.
-
-Por último, cambie el título de la tabla para que haga referencia a ventas de gafas de sol y no a la jubilación. En Propiedades en el panel Configuración de la consulta, reemplace el título anterior por Mejores estados para ventas de gafas de sol.
+Ahora puede aplicar cambios y transformaciones propios a los datos y verlos en `Pasos aplicados`.
 
 Para obtener más información sobre cómo dar forma a los datos, vea [Combinar datos y darles forma en Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-shape-and-combine-data).
 
 ## Combinar datos
 
-Los datos sobre diferentes estados resultan interesantes y serán útiles para crear otras consultas y análisis. Pero hay un problema: la mayoría de los datos usa abreviaturas de dos letras para los códigos de estado, no el nombre completo de los estados. Para usar esos datos, se necesita una manera de asociar las abreviaturas con los nombres de los estados.
+Para importar los datos de las abreviaturas de estados en el Editor de Power Query, seleccione de la pestaña `Inicio` > `Nueva consulta` > `Nuevo origen` > `Web`.
 
-Está de suerte. Otro origen de datos público hace justamente eso, pero los datos necesitarán una importante cantidad de modelado antes de poder combinarlos con la tabla de gafas de sol.
+En la ventana Navegador, seleccione las tablas que necesita para complementar su informe y, después, seleccione `Aceptar`. La tabla se abre en el *Editor de Power Query*.
 
-Para importar los datos de las abreviaturas de estados en el Editor de Power Query, seleccione Nuevo origen>Web en el grupo Nueva consulta de la pestaña Inicio de la cinta.
+Quite todas las columnas que no le *aporten utilidad*. Para conservar solo estas columnas, mantenga presionada la tecla `Ctrl` y selecciónelas. Después, haga clic con el botón derecho en uno de los encabezados de columna y seleccione `Quitar otras columnas`, o bien, la pestaña `Inicio` > `Administrar columnas` > `Quitar otras columnas`.
 
-En el cuadro de diálogo De web, escriba la dirección URL del sitio de las abreviaturas de estado: https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations.
+Para quitar valores adicionales de la tabla haga clic en la flecha desplegable situada junto a la columna seleccionada y seleccione `Filtros` > `Es igual a`. En el cuadro de diálogo `Filtrar filas`, haga clic en el campo desplegable `Escribir` o seleccionar un valor situado junto a `es igual a` y seleccione la opción que necesite. Seleccione `Aceptar`.
 
-En la ventana Navegador, seleccione la tabla Codes and abbreviations for U.S. states, federal district, territories, and other regions (Códigos y abreviaturas de estados de EE. UU., Distrito Federal, territorios y otras regiones) y, después, seleccione Aceptar. La tabla se abre en el Editor de Power Query.
-
-Quite todas las columnas excepto Name and status of region (Nombre y estado de la región), Name and status of region y ANSI. Para conservar solo estas columnas, mantenga presionada la tecla Ctrl y selecciónelas. Después, haga clic con el botón derecho en uno de los encabezados de columna y seleccione Quitar otras columnas, o bien, en el grupo Administrar columnas de la pestaña Inicio, seleccione Quitar otras columnas.
-
-Haga clic en la flecha desplegable situada junto a la columna Name and status of region_1 y seleccione Filtros>Es igual a. En el cuadro de diálogo Filtrar filas, haga clic en el campo desplegable Escribir o seleccionar un valor situado junto a es igual a y seleccione State. Seleccione Aceptar.
-
-Después de quitar valores adicionales como Federal district (Distrito Federal) e island (isla), ahora tiene una lista de los 50 estados y sus abreviaturas oficiales de dos letras. Puede cambiar el nombre de las columnas para que tengan más sentido, por ejemplo Nombre del estado, Estado y Abreviatura si hace clic con el botón derecho en los encabezados de columna y selecciona Cambiar el nombre.
+Después de quitar valores adicionales. Puede cambiar el nombre de las columnas para que tengan más sentido, si hace clic con el botón derecho en los encabezados de columna y selecciona `Cambiar el nombre`.
 
 Tenga en cuenta que todos estos pasos se registran en Pasos aplicados en el panel Configuración de la consulta.
 
