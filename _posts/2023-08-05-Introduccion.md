@@ -132,13 +132,21 @@ Para quitar valores adicionales de la tabla haga clic en la flecha desplegable s
 
 Después de quitar valores adicionales. Puede cambiar el nombre de las columnas para que tengan más sentido, si hace clic con el botón derecho en los encabezados de columna y selecciona `Cambiar el nombre`.
 
-Tenga en cuenta que todos estos pasos se registran en Pasos aplicados en el panel Configuración de la consulta.
+```text
+Tenga en cuenta que todos estos pasos se registran en Pasos aplicados en el panel Configuración
+de la consulta.
+```
 
-Cambie el título de la tabla por Códigos de estado en el campo Propiedades de Configuración de la consulta.
+Cambie el título de la tabla en el campo `Propiedades` de Configuración de la consulta.
 
-Después de dar forma a la tabla Códigos de estado, puede combinar estas dos tablas en una. Como las tablas que ahora tiene son el resultado de las consultas aplicadas a los datos, también se denominan consultas. Existen dos formas principales de combinar consultas: combinar y anexar.
+Después de dar forma a la tabla, puede `combinar` estas dos tablas en una. Como las tablas que ahora tiene son el resultado de las consultas aplicadas a los datos, también se denominan `consultas`. Existen dos formas principales de combinar consultas: `combinar` y `anexar`.
 
-Cuando tiene una o más columnas que quiere agregar a otra consulta, las consultas se combinan. Cuando tiene filas de datos adicionales que quiere agregar a una consulta existente, la consulta se anexa.
+```text
+Cuando tiene una o más columnas que quiere agregar a otra consulta, las consultas se combinan.
+
+Cuando tiene filas de datos adicionales que quiere agregar a una consulta existente, la consulta
+se anexa.
+```
 
 En este caso, quiere combinar la consulta Códigos de estado con la consulta Mejores estados para las ventas de gafas de sol. Para combinar las consultas, cambie a la consulta Mejores estados para las ventas de gafas de sol seleccionándola en el panel Consultas del lado izquierdo del Editor de Power Query. Después, seleccione Combinar consultas en el grupo Combinar de la pestaña Inicio de la cinta.
 
