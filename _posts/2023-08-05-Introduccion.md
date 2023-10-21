@@ -93,9 +93,12 @@ para que los datos siempre tengan la forma especificada.
 ```text
 Nota Importante
 
-Este proceso se produce siempre que se usa la consulta en *Power BI Desktop*, o bien cuando alguien más use la consulta compartida, como en el servicio Power BI.
+Este proceso se produce siempre que se usa la consulta en *Power BI Desktop*, o bien cuando alguien
+más use la consulta compartida, como en el servicio Power BI.
 
-La importancia de utilizar el servicio Power BI, con licencia PRO, es que por medio de este servicio se actualizan los informes en automatico, y no tener que enviar los informes cada que se vuelven actualizar en el Software Power BI Desktop.
+La importancia de utilizar el servicio Power BI, con licencia PRO, es que por medio de este servicio
+se actualizan los informes en automatico, y no tener que enviar los informes cada que se vuelven
+actualizar en el Software Power BI Desktop.
 ```
 
 Tenga en cuenta que en `Pasos aplicados` en `Configuración` de la consulta ya se incluyen algunos pasos. 
