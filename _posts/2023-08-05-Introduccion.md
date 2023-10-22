@@ -141,7 +141,9 @@ Para importar nuevos datos en el Editor de Power Query, seleccione de la pestañ
 
 En la ventana Navegador, seleccione las tablas que necesita para complementar su informe y, después, seleccione `Aceptar`. La tabla se abre en el *Editor de Power Query*.
 
-Quite todas las columnas que no le *aporten utilidad*. Para conservar solo estas columnas, mantenga presionada la tecla `Ctrl` y selecciónelas. Después, haga clic con el botón derecho en uno de los encabezados de columna y seleccione `Quitar otras columnas`, o bien, la pestaña `Inicio` > `Administrar columnas` > `Quitar otras columnas`.
+Quite todas las columnas que no le *aporten utilidad*. Para conservar solo estas columnas, mantenga presionada la tecla `Ctrl` y selecciónelas.
+
+Después, haga clic con el botón derecho en uno de los encabezados de columna y seleccione `Quitar otras columnas`, o bien, la pestaña `Inicio` > `Administrar columnas` > `Quitar otras columnas`.
 
 Para quitar valores adicionales de la tabla haga clic en la flecha desplegable situada junto a la columna seleccionada y seleccione `Filtros` > `Es igual a`. En el cuadro de diálogo `Filtrar filas`, haga clic en el campo desplegable `Escribir` o seleccionar un valor situado junto a `es igual a` y seleccione la opción que necesite. Seleccione `Aceptar`.
 
@@ -165,10 +167,10 @@ Cambie el *título de la tabla* en el campo `Propiedades` de Configuración de l
 Después de dar forma a la tabla, puede `combinar` estas dos tablas en una. Como las tablas que ahora tiene son el resultado de las consultas aplicadas a los datos, también se denominan `consultas`. Existen dos formas principales de combinar consultas: `combinar` y `anexar`.
 
 ```text
-Cuando tiene una o más columnas que quiere agregar a otra consulta, las consultas se combinan.
+Cuando tiene una o más columnas que quiere agregar a otra consulta, las consultas se "combinan".
 
 Cuando tiene filas de datos adicionales que quiere agregar a una consulta existente, la consulta
-se anexa.
+se "anexa".
 ```
 
 Para combinar las consultas, cambie a la primer consulta seleccionándola en el panel `Consultas` del lado izquierdo del Editor de Power Query. Después, seleccione `Combinar consultas` en el grupo `Combinar` de la pestaña `Inicio` de la cinta.
@@ -178,8 +180,11 @@ Para combinar las consultas, cambie a la primer consulta seleccionándola en el 
 </center>
 
 ```text
-Si aparece un cuadro de diálogo Niveles de privacidad, seleccione Ignorar las comprobaciones de
-los niveles de privacidad de este archivo y, después, seleccione Guardar. Seleccione Aceptar.
+Si aparece un cuadro de diálogo (Niveles de privacidad):
+
+- Seleccione (Ignorar las comprobaciones de los niveles de privacidad de este archivo)
+- Seleccione (Guardar)
+- Seleccione (Aceptar).
 ```
 
 Para expandir la tabla combinada y seleccionar qué columnas se van a incluir, seleccione el icono `Expandir` del encabezado de columna. En el cuadro de diálogo Expandir, seleccione solo la columna que necesita. Desactive `Usar el nombre de columna original como prefijo` y, después, seleccione Aceptar.
@@ -201,8 +206,7 @@ Para obtener una descripción más completa de los pasos para dar forma a los da
 ```text
 Ahora tiene una única tabla de consulta con dos orígenes de datos combinados, a los que se les ha
 dado forma para adecuarlos a sus necesidades. Esta consulta puede servir como base para conexiones
-de datos más interesantes, como datos demográficos, niveles de bienestar y oportunidades de ocio en
-los estados.
+de datos más interesantes.
 ```
 
 Por ahora, tiene datos suficientes para crear un informe interesante en `Power BI Desktop`. Como se trata de un hito, aplique los cambios en el `Editor de Power Query` y, para cargarlos en Power BI Desktop, seleccione `Cerrar` y `aplicar` en la pestaña Inicio de la cinta.
@@ -234,82 +238,78 @@ En la vista `Informe` de *Power BI Desktop*, puede crear visualizaciones e infor
 
 Puede expandir y contraer los paneles `Filtros`, `Visualizaciones` y `Campos` si selecciona las *flechas situadas en la parte superior de los paneles*. Al contraer los paneles se proporciona más espacio en el lienzo para crear visualizaciones interesantes.
 
-Para crear una visualización simple, seleccione cualquier campo de la lista de campos, o bien arrástrelo desde la lista Campos hasta el lienzo. Por ejemplo, arrastre el campo Estado desde Mejores estados para las ventas de gafas de sol hasta el lienzo y vea lo que sucede.
+Para crear una visualización simple, seleccione cualquier campo de la lista de campos, o bien arrástrelo desde la lista Campos hasta el lienzo.
 
-Preste atención. Power BI Desktop ha reconocido que el campo State contiene datos de geolocalización y ha creado de forma automática una visualización basada en un mapa. La visualización muestra los puntos de datos de los 40 estados del modelo de datos.
+En el panel `Visualizaciones` se muestra información sobre la visualización y le permite modificarla.
 
-En el panel Visualizaciones se muestra información sobre la visualización y le permite modificarla.
-
-* La opción Campos del panel Visualización permite arrastrar campos de datos a Leyenda y otras áreas de campos del panel.
-* La opción Formato permite aplicar formato y otros controles a las visualizaciones.
+* La opción `Campos` del panel Visualización permite arrastrar campos de datos a Leyenda y otras áreas de campos del panel.
+* La opción `Formato` permite aplicar formato y otros controles a las visualizaciones.
 * Los iconos muestran el tipo de visualización creado. Puede cambiar el tipo de una visualización seleccionada si selecciona otro icono, o bien crear una visualización si selecciona un icono sin ninguna visualización existente seleccionada.
 
-Las opciones disponibles en las áreas Campos y Formato dependen del tipo de visualización y de los datos que tenga.
+Las opciones disponibles en las áreas `Campos` y `Formato` dependen del tipo de visualización y de los datos que tenga.
 
-Quiere que la visualización del mapa muestre solo los 10 primeros estados con mejor clima. Para mostrar solo los 10 primeros estados, en el panel Filtros, mantenga el mouse sobre State is (All) (El estado es (Todos)) y expanda la flecha que aparece. En la lista desplegable Tipo de filtro, seleccione N principales. En Mostrar elementos, seleccione Inferior, porque quiere mostrar los elementos con los rangos numéricos más bajos, y escriba 10 en el campo siguiente.
+Para agregar una página nueva, seleccione el símbolo `+` situado junto a las páginas existentes en la *barra de páginas*, o bien seleccione `Insertar` > `Nueva página` en la pestaña `Inicio` de la cinta.
 
-Arrastre el campo Weather (Tiempo) desde el panel Campos hasta el campo Por valor y, después, seleccione Aplicar filtro.
+Para cambiar el `nombre de una página`, haga doble clic en el nombre de la página en la barra de páginas, o bien haga clic con el botón derecho y seleccione `Cambiar nombre de página` y escriba el nombre nuevo. Para ir a una página del informe diferente, seleccione la página en la barra de páginas.
 
-Ahora solo verá los 10 estados principales con mejor clima en la visualización de mapa.
+Puede agregar *cuadros de texto*,*imágenes* y *botones* a las páginas de su informe desde el grupo `Insertar` de la pestaña `Inicio`.
 
-Puede cambiar el título de la visualización. Seleccione el icono Formato en el panel Visualización y escriba el título en el cuadro Buscar. En la tarjeta Título escriba Los 10 estados con mejor clima en Texto.
+Para configurar las opciones de formato para las visualizaciones, seleccione una *visualización* y luego seleccione el icono de `Formato` en el panel Visualizaciones.
 
-Para agregar una visualización que muestre los nombres de los 10 estados con mejor clima y sus clasificaciones de 1 a 10, seleccione un área en blanco del lienzo y, a continuación, seleccione el icono Gráfico de columnas agrupadas en el panel Visualización. En el panel Campos, seleccione State y Weather. En un gráfico de columnas se muestran los 40 estados de la consulta, clasificados numéricamente de mayor a menor, o de peor a mejor clima.
+Para configurar *tamaños de página*, *fondos* y otra información de página, seleccione el icono Formato sin ninguna visualización seleccionada.
 
-Para cambiar el orden de clasificación de modo que el número 1 aparezca en primer lugar, seleccione Más opciones (...) en la esquina superior derecha de la visualización y, después, seleccione Orden ascendente en el menú.
+Cuando termine de crear las páginas y las visualizaciones, seleccione `Archivo` > `Guardar` y guarde el informe.
 
-Para limitar la tabla a los 10 estados principales, aplique el mismo filtro de los 10 inferiores como ha hecho en la visualización del mapa.
-
-Cambie el título de la visualización de la misma forma que para la visualización del mapa. Además, en la sección Formato del panel Visualización, cambie Eje Y>Título del eje de Weather a Clasificación meteorológica para que sea más descriptivo. Después. establezca el selector Eje Y en Desactivar. Busque el control deslizante de zoom y establézcalo en Activado. A continuación, establezca las Etiquetas de datos en Activas.
-
-Ahora, los 10 estados principales con mejor clima aparecen en orden de clasificación junto con sus clasificaciones numéricas.
-
-Puede crear visualizaciones similares o distintas para los campos Affordability y Overall ranking, o bien combinar varios campos en una visualización. Hay todo tipo de informes y visualizaciones interesantes que puede crear. En estas visualizaciones de Tabla y Gráfico de líneas y columnas agrupadas se muestran los 10 estados principales con mejor clima junto con su asequibilidad y clasificaciones generales:
-
-Puede mostrar otras visualizaciones en otras páginas del informe. Para agregar una página nueva, seleccione el símbolo + situado junto a las páginas existentes en la barra de páginas, o bien seleccione Insertar>Nueva página en la pestaña Inicio de la cinta. Para cambiar el nombre de una página, haga doble clic en el nombre de la página en la barra de páginas, o bien haga clic con el botón derecho y seleccione Cambiar nombre de página y escriba el nombre nuevo. Para ir a una página del informe diferente, seleccione la página en la barra de páginas.
-
-Puede agregar cuadros de texto, imágenes y botones a las páginas de su informe desde el grupo Insertar de la pestaña Inicio. Para configurar las opciones de formato para las visualizaciones, seleccione una visualización y luego seleccione el icono de Formato en el panel Visualizaciones. Para configurar tamaños de página, fondos y otra información de página, seleccione el icono Formato sin ninguna visualización seleccionada.
-
-Cuando termine de crear las páginas y las visualizaciones, seleccione Archivo>Guardar y guarde el informe. Para más información sobre los informes, consulte [Vista de informes en Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/create-reports/desktop-report-view).
+Para más información sobre los informes, consulte [Vista de informes en Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/create-reports/desktop-report-view).
 
 ## Compartir su trabajo
 
-Ahora que tiene un informe de Power BI Desktop, puede compartirlo con otros usuarios. Hay varias maneras de compartir el trabajo. Puede distribuir el archivo .pbix del informe como cualquier otro archivo, cargar el archivo .pbix desde el servicio Power BI, o bien publicar directamente desde Power BI Desktop en el servicio Power BI. Debe tener una cuenta de Power BI para poder publicar o cargar informes en el servicio Power BI.
+Ahora que tiene un informe de Power BI Desktop, puede compartirlo con otros usuarios.
 
-Para publicar en el servicio Power BI desde Power BI Desktop, seleccione Publicar en la pestaña Inicio de la cinta.
+```text
+Hay varias maneras de compartir el trabajo.
+
+1. Puede distribuir el archivo .pbix del informe como cualquier otro archivo.
+2. Cargar el archivo .pbix desde el servicio Power BI.
+3. Publicar directamente desde Power BI Desktop en el servicio Power BI.
+```
+
+Debe tener una cuenta de Power BI para poder publicar o cargar informes en el servicio Power BI.
+
+Para publicar en el servicio Power BI desde *Power BI Desktop*, seleccione `Publicar` en la pestaña `Inicio` de la cinta.
 
 Es posible que se le pida que inicie sesión en Power BI o que seleccione un destino.
 
 Cuando finalice el proceso de publicación, verá el cuadro de diálogo siguiente:
 
-Al seleccionar el vínculo para abrir el informe en Power BI, el informe se abre en el sitio de Power BI en Mi área de trabajo>Informes.
+<center>
+    <img src='./../assets/images/Introduccion2/Session_10.png'>
+</center>
 
-Otra manera de compartir su trabajo es realizar la carga desde el servicio Power BI . Vaya a https://app.powerbi.com para abrir Power BI en un explorador. En la página Inicio de Power Bi, seleccione Obtener datos en la esquina inferior izquierda para iniciar el proceso de carga del informe de Power BI Desktop.
+Al seleccionar el *vínculo* para abrir el informe en Power BI, el informe se abre en el sitio de *Power BI* en `Mi área de trabajo` > `Informes`.
 
-En la página siguiente, seleccione Obtener en la sección Archivos.
+Otra manera de compartir su trabajo es realizar la carga desde el servicio Power BI . Vaya al [servicio Power BI](https://app.powerbi.com) para abrir Power BI en un explorador. En la página Inicio de Power Bi, seleccione `Mi área de trabajo` en la esquina inferior izquierda y en seguida `cargar` para iniciar el proceso de carga del informe de Power BI Desktop.
 
-En la siguiente página, seleccione Archivo local. Busque y seleccione el archivo .pbix Power BI Desktop y seleccione Abrir.
+En la página siguiente, seleccione `Examinar`, y ya sólo queda buscar el archivo con extensión `.pbix`. Cuando se importe el archivo, podrá verlo en `Mi área de trabajo`.
 
-Cuando se importe el archivo, podrá verlo en Mi espacio de trabajo>Informes, en el panel izquierdo del servicio Power BI.
+Puede realizar cambios en un informe del servicio Power BI si selecciona `Más opciones` > `Editar` en la parte superior del lienzo de informe.
 
-Al seleccionar el archivo, aparecerá la primera página del informe. Puede seleccionar otras páginas en las pestañas situadas a la izquierda del informe.
+Para guardar los cambios, seleccione `Archivo` > `Guardar una copia`.
 
-Puede realizar cambios en un informe del servicio Power BI si selecciona Más opciones>Editar en la parte superior del lienzo de informe.
+Puede crear todo tipo de objetos visuales interesantes desde el informe en el servicio Power BI, que puede anclar a un panel.
 
-Para guardar los cambios, seleccione Archivo>Guardar una copia.
+Para más información sobre los paneles del servicio Power BI, vea [Sugerencias para diseñar un panel de Power BI fantástico](https://learn.microsoft.com/es-es/power-bi/create-reports/service-dashboards-design-tips). Para más información sobre cómo crear, compartir y modificar los paneles, consulte [Compartir un panel con compañeros y otros usuarios](https://learn.microsoft.com/es-es/power-bi/collaborate-share/service-share-dashboards).
 
-Puede crear todo tipo de objetos visuales interesantes desde el informe en el servicio Power BI, que puede anclar a un panel. Para más información sobre los paneles del servicio Power BI, vea [Sugerencias para diseñar un panel de Power BI fantástico](https://learn.microsoft.com/es-es/power-bi/create-reports/service-dashboards-design-tips). Para más información sobre cómo crear, compartir y modificar los paneles, consulte [Compartir un panel con compañeros y otros usuarios](https://learn.microsoft.com/es-es/power-bi/collaborate-share/service-share-dashboards).
+Para compartir un informe o un panel, seleccione `Compartir` > `Informe` en la parte superior de la página del informe o panel abierto, o bien seleccione el icono `Compartir` situado junto al nombre del informe o panel en las listas `Mi área de trabajo` > `Informes` o `Mi área de trabajo` > `Paneles`.
 
-Para compartir un informe o un panel, seleccione Compartir>Informe en la parte superior de la página del informe o panel abierto, o bien seleccione el icono Compartir situado junto al nombre del informe o panel en las listas Mi área de trabajo>Informes o Mi área de trabajo>Paneles.
-
-Complete la pantalla Compartir informe o Compartir panel para enviar un correo electrónico u obtener un vínculo para compartir el informe o el panel con otros usuarios.
+Complete la pantalla `Compartir informe` o `Compartir panel` para enviar un correo electrónico u obtener un vínculo para compartir el informe o el panel con otros usuarios.
 
 Hay muchas mezclas y visualizaciones atractivas relacionadas con los datos que puede realizar con Power BI Desktop y el servicio Power BI.
 
 ## Consideraciones y limitaciones
 
-* Power BI Desktop se actualiza y se publica mensualmente, incorporando comentarios de los clientes y características nuevas. Solo se admite la versión más reciente de Power BI Desktop. Si se comunica con el soporte técnico para Power BI Desktop, se le pedirá que actualice a la versión más reciente.
-* Para los datos e informes que deben permanecer en el entorno local hay una versión de Power BI independiente y especializada denominada [Power BI Report Server](https://learn.microsoft.com/es-es/power-bi/report-server/get-started). Power BI Report Server usa una versión independiente y especializada de Power BI Desktop llamada [Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/report-server/install-powerbi-desktop) para Power BI Report Server, que se actualiza tres veces al año. En este artículo se describe la versión estándar de Power BI Desktop.
+* Power BI Desktop se actualiza y se publica *mensualmente*, incorporando comentarios de los clientes y características nuevas. Solo se admite la versión más reciente de Power BI Desktop. Si se comunica con el soporte técnico para Power BI Desktop, se le pedirá que actualice a la versión más reciente.
+* Para los datos e informes que deben permanecer en el entorno local hay una versión de Power BI independiente y especializada denominada [Power BI Report Server](https://learn.microsoft.com/es-es/power-bi/report-server/get-started). Power BI Report Server usa una versión independiente y especializada de Power BI Desktop llamada [Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/report-server/install-powerbi-desktop) para Power BI Report Server, que se actualiza tres veces al año.
 
 ## Pasos siguientes
 
