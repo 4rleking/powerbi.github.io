@@ -29,6 +29,15 @@ A menudo, cuando quiere crear un informe de Power BI, empieza en `Power BI Deskt
 
 Para este tutorial, comenzamos desde cero mediante la creación de un informe en el servicio Power BI en lugar del dispositivo de escritorio. Creamos un conjunto de datos a partir de un archivo simple de Microsoft Excel que contiene datos financieros de ejemplo.
 
+```text
+Nota
+
+No se cargará el ejemplo del archivo de "datos financieros" debido a que no se tiene la información
+para poder utilizarla; sin embargo, los pasos que se describen para este ejemplo, se pueden
+utilizar para cada ejemplo que usted necesite emplear y obtener los mismos resultados que se obtienen
+en este capitulo.
+```
+
 * Abra el [servicio Power BI](app.powerbi.com) en el explorador.
 
 ```text
@@ -38,7 +47,8 @@ Regístrese para obtener una versión de prueba de 60 días de Power BI Premium 
 
 * Descargue el archivo de Excel que tiene los datos del Ejemplo financiero.
 * Seleccione `Mi área de trabajo` en el panel de navegación.
-* Seleccione `Nuevo` > `conjunto de datos` para iniciar el proceso de importación. Se abre la página Agregar datos para empezar a compilar un informe.
+* Seleccione `Nuevo` > `conjunto de datos` para iniciar el proceso de importación.
+* Se abre la página *Agregar datos para empezar a crear un informe*.
 
 ```text
 Nota
