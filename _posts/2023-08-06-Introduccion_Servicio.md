@@ -1,11 +1,11 @@
 ---
 layout: single
 title: Introducción a la creación en el servicio Power BI
-excerpt: ""
+excerpt: "Esta parte es una breve introducción al Servicio power BI; tratará acerca de los beneficios y utilidades que pueden servir a la hora de editar, cargar, actualizar, crear algún tipo de Informe."
 date: 2023-08-26
 classes: wide
 header:
-  teaser: /assets/images/
+  teaser: /assets/images/Servicio_PowerBI/Intro1.webp
   teaser_home_page: true
 categories:
   - 
@@ -13,7 +13,7 @@ tags:
   - 
 ---
 
-![](/assets/images/)
+![](/assets/images/Servicio_PowerBI/Intro2.png)
 
 En el servicio Power BI, puede realizar muchas tareas diferentes y este tutorial puede ayudarle a empezar. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero ¿Qué es Power BI?
 
