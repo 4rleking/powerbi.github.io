@@ -99,7 +99,7 @@ Otros usuarios son consumidores de informes en su sección `Mi área de trabajo`
 
 ## Paso 2: Crear un gráfico en un informe
 
-Después de conectar los datos para compilar un informe, está listo para empezar a explorar. Cuando encuentre un elemento interesante, puede guardarlo en el lienzo del informe. Puede anclar el elemento a un panel para supervisar los datos de los cambios a lo largo del tiempo.
+Después de conectar los datos para crear un informe, está listo para empezar a explorar. Cuando encuentre un elemento interesante, puede guardarlo en el lienzo del informe. Puede anclar el elemento a un panel para supervisar los datos de los cambios a lo largo del tiempo.
 
 Podemos empezar por agregar un gráfico de *columnas* al informe en el editor para crear una visualización de los datos.
 
@@ -110,29 +110,42 @@ Algunos elementos de datos tienen un símbolo sigma (Σ) junto al nombre. Power 
 junto a los datos que tienen valores numéricos.
 ```
 
-* En finanzas, seleccione el elemento de datos Ventas brutas y, a continuación, seleccione el elemento Fecha.
-  Power BI analiza los datos seleccionados y crea una visualización del gráfico de columnas.
+* En finanzas, seleccione el elemento de datos *Ventas brutas* y, a continuación, seleccione el elemento *Fecha*. Power BI analiza los datos seleccionados y crea una visualización del gráfico de columnas.
 
+```text
 Nota
-Si selecciona el elemento Fecha antes de seleccionar el elemento Ventas brutas, Power BI crea una tabla en lugar de un gráfico de columnas. Si seleccionó los elementos de datos en este orden, no es un problema. Cambiaremos la visualización de los datosen el paso siguiente.
 
-3. Vamos a probar otra presentación de los datos seleccionados. Los gráficos de líneas son buenos objetos visuales para mostrar cambios en los valores a lo largo del tiempo. En el panel Visualizaciones, seleccione la opción Gráfico de líneas.
-4. El gráfico de líneas parece interesante, por lo que vamos a anclar la visualización a un panel. Seleccione el icono Anclar en la visualización.
+Si selecciona el elemento (Fecha) antes de seleccionar el elemento (Ventas brutas), Power BI
+crea una tabla en lugar de un gráfico de columnas. Si seleccionó los elementos de datos en este
+orden, no es un problema. Cambiaremos la visualización de los datos en el paso siguiente.
+```
 
-Cuando se trata de un informe nuevo, se le pide que lo guarde antes de poder anclar la visualización a un panel.
+* Vamos a probar otra presentación de los datos seleccionados. Los gráficos de líneas son buenos objetos visuales para mostrar cambios en los valores a lo largo del tiempo. En el panel `Visualizaciones`, seleccione la opción `Gráfico de líneas`.
+* El gráfico de líneas parece interesante, por lo que vamos a anclar la visualización a un panel. Seleccione el icono `Anclar` en la visualización.
 
-* Escriba un nombre para el informe, como Informe de ejemplo financiero y seleccione Guardar.
+Cuando se trata de un informe nuevo, se le pide que lo *guarde* antes de poder anclar la visualización a un panel.
 
-Power BI guarda el informe en la ubicación seleccionada. El valor predeterminado es Mi área de trabajo. Power BI muestra el informe en la vista de lectura.
+* Escriba un nombre para el informe, como Informe de ejemplo *financiero* y seleccione `Guardar`.
 
-5. Coloque el mouse sobre la visualización y vuelva a seleccionar el icono Anclar. Se abre el cuadro de diálogo Anclar al panel.
-6. En el cuadro de diálogo emergente, seleccione Nuevo panel y escriba un nombre para el panel, como Panel de ejemplo financiero. Seleccione Anclar.
-  Power BI muestra un mensaje de operación correcta después de que el servicio agregue la visualización al panel. El cuadro de diálogo correcto incluye una opción para crear un diseño optimizado del panel para el dispositivo móvil.
-7. En el cuadro de diálogo del mensaje, seleccione Ir al panel.
-  Después de anclar una visualización, se ancla en el panel como un icono. Los datos en la visualización permanecen actualizados para que pueda realizar un seguimiento del valor más reciente de un vistazo.
+Power BI guarda el informe en la ubicación seleccionada. El valor predeterminado es `Mi área de trabajo`. Power BI muestra el informe en la vista de `lectura`.
 
+* Coloque el mouse sobre la visualización y vuelva a seleccionar el icono `Anclar`. Se abre el cuadro de diálogo `Anclar al panel`.
+* En el cuadro de diálogo emergente, seleccione `Nuevo panel` y escriba un nombre para el panel, como *Panel de ejemplo financiero*. Seleccione `Anclar`.
+
+```text
+Power BI muestra un mensaje de (operación correcta) después de que el servicio agregue la
+visualización al panel. El cuadro de diálogo correcto incluye una opción para crear un diseño
+optimizado del panel para el dispositivo móvil.
+```
+
+* En el cuadro de diálogo del mensaje, seleccione `Ir al panel`.
+
+Después de anclar una visualización, se ancla en el panel como un icono. Los datos en la visualización permanecen actualizados para que pueda realizar un seguimiento del valor más reciente de un vistazo.
+
+```text
 Nota
 Después de anclar una visualización, si cambia el tipo de visualización del informe después de anclarla, la visualización anclada en el panel no cambiará. Para ver la nueva visualización, ánclela al panel para crear otro icono. El uso de varios iconos le permite tener más de una visualización de los mismos datos en el panel.
+```
 
 8. Ahora seleccione el icono en el panel:
   El servicio Power BI le devuelve al editor de informes, donde puede refinar la visualización
