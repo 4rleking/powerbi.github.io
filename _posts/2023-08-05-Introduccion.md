@@ -218,7 +218,11 @@ en la pestaña "Inicio" de la cinta de Power BI Desktop.
 
 ## Elaborar informes
 
-En la vista Informe de Power BI Desktop, puede crear visualizaciones e informes. La vista Informe tiene seis áreas principales:
+En la vista `Informe` de *Power BI Desktop*, puede crear visualizaciones e informes. La vista Informe tiene seis áreas principales:
+
+<center>
+    <img src='./../assets/images/Introduccion2/Session_09.png'>
+</center>
 
 1. La cinta en la parte superior, en la que se muestran las tareas comunes asociadas con los informes y las visualizaciones.
 2. El área de lienzo del centro, donde se pueden crear y organizar las visualizaciones.
@@ -228,7 +232,7 @@ En la vista Informe de Power BI Desktop, puede crear visualizaciones e informes.
 6. El panel Formato, donde se diseñan el informe y las visualizaciones.
 7. El panel Campos, donde se muestran los campos disponibles en las consultas. Puede arrastrar estos campos al lienzo o a los paneles Filtros o Visualizaciones para crear o modificar visualizaciones.
 
-Puede expandir y contraer los paneles Filtros, Visualizaciones y Campos si selecciona las flechas situadas en la parte superior de los paneles. Al contraer los paneles se proporciona más espacio en el lienzo para crear visualizaciones interesantes.
+Puede expandir y contraer los paneles `Filtros`, `Visualizaciones` y `Campos` si selecciona las *flechas situadas en la parte superior de los paneles*. Al contraer los paneles se proporciona más espacio en el lienzo para crear visualizaciones interesantes.
 
 Para crear una visualización simple, seleccione cualquier campo de la lista de campos, o bien arrástrelo desde la lista Campos hasta el lienzo. Por ejemplo, arrastre el campo Estado desde Mejores estados para las ventas de gafas de sol hasta el lienzo y vea lo que sucede.
 
