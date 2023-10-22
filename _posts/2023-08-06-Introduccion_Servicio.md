@@ -15,69 +15,92 @@ tags:
 
 ![](/assets/images/Servicio_PowerBI/Intro2.png)
 
-En el servicio Power BI, puede realizar muchas tareas diferentes y este tutorial puede ayudarle a empezar. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero ¿Qué es Power BI?
-
-Si es un lector de informes en lugar de un creador, consulte el tutorial Introducción al servicio Power BI.
-
-En este tutorial, va a completar las siguientes tareas:
-
-* Iniciar sesión en la cuenta de Power BI en línea (o bien registrarse, si todavía no tiene una).
-* Abrir el servicio Power BI.
-* Agregar y ver datos en modo de lectura o edición.
-* Usar datos para crear visualizaciones y guardar los diseños como un informe.
-* Crear un panel anclando iconos desde el informe.
-* Agregar otras visualizaciones a un panel con la herramienta de lenguaje natural Preguntas y respuestas.
-* Cambiar el tamaño, reorganizar y editar los detalles de los iconos en el panel.
-* Limpiar los recursos mediante la eliminación del conjunto de datos, el informe y el panel.
-
 ## Suscribirse al servicio Power BI
 
-Para crear contenido en Power BI, se necesita una licencia de Power BI Pro o Premium por usuario (PPU). Si no tiene una cuenta de Power BI y prevé crear contenido, [regístrese para obtener una versión de prueba de 60 días](https://app.powerbi.com/signupredirect?pbi_source=web) de la licencia de Power BI Premium por usuario antes de empezar. Complete el asistente para obtener una licencia gratuita. Abra el servicio Power BI (app.powerbi.com) y seleccione el icono Yo. Elija Premium por usuario: iniciar prueba o Comprar Fabric ahora.
+Para crear contenido en Power BI, se necesita una licencia de *Power BI Pro* o *Premium* por usuario (PPU). Si no tiene una cuenta de Power BI y prevé crear contenido, [regístrese](https://app.powerbi.com/signupredirect?pbi_source=web) para obtener una versión de prueba de 60 días de la licencia de Power BI Premium por usuario antes de empezar.
+
+Complete el asistente para obtener una *licencia gratuita*. Abra el [servicio Power BI](app.powerbi.com) y seleccione el icono `Yo`.
+
+Elija *Premium* por usuario: Iniciar prueba o Comprar Fabric ahora.
 
 ## Paso 1: Adición de datos para crear un informe
 
-A menudo, cuando quiere crear un informe de Power BI, empieza en Power BI Desktop. Power BI Desktop ofrece más posibilidades. Puede transformar y modelar los datos, así como darles forma, antes de empezar a diseñar los informes.
+A menudo, cuando quiere crear un informe de Power BI, empieza en `Power BI Desktop`. *Power BI Desktop* ofrece más posibilidades. Puede transformar y modelar los datos, así como darles forma, antes de empezar a diseñar los informes.
 
 Para este tutorial, comenzamos desde cero mediante la creación de un informe en el servicio Power BI en lugar del dispositivo de escritorio. Creamos un conjunto de datos a partir de un archivo simple de Microsoft Excel que contiene datos financieros de ejemplo.
 
-1. Abra el servicio Power BI (app.powerbi.com) en el explorador.
- ¿No tiene una cuenta? Regístrese para obtener una versión de prueba de 60 días de Power BI Premium por usuario.
-2. Descargue el archivo de Excel que tiene los datos del Ejemplo financiero.
-3. Seleccione Mi área de trabajo en el panel de navegación.
-4. Seleccione Nuevo>conjunto de datos para iniciar el proceso de importación. Se abre la página Agregar datos para empezar a compilar un informe.
+* Abra el [servicio Power BI](app.powerbi.com) en el explorador.
 
+```text
+¿No tiene una cuenta?
+Regístrese para obtener una versión de prueba de 60 días de Power BI Premium por usuario.
+```
+
+* Descargue el archivo de Excel que tiene los datos del Ejemplo financiero.
+* Seleccione `Mi área de trabajo` en el panel de navegación.
+* Seleccione `Nuevo` > `conjunto de datos` para iniciar el proceso de importación. Se abre la página Agregar datos para empezar a compilar un informe.
+
+```text
 Nota
-Si selecciona Cargar en lugar de Nuevo, el servicio Power BI carga todo el libro de Excel. Después, puede abrir y editar el libro en Excel Online.
 
-5. En la página Agregar datos para empezar a compilar un informe, seleccione Excel.
-6. En el cuadro de diálogo Seleccionar un archivo, vaya a la ubicación donde guardó el archivo de Excel en el equipo.
-7. Seleccione el archivo y elija Importar.
+Si selecciona (Cargar) en lugar de (Nuevo), el servicio Power BI carga todo el libro de Excel.
+Después, puede abrir y editar el libro en Excel Online.
+```
 
-El servicio Power BI importa los datos de ejemplo del archivo de Excel como un conjunto de datos y abre la página Ejemplo financiero.
+* En la página `Agregar datos para empezar a crear un informe`, seleccione `Excel`.
+* En el cuadro de diálogo *Seleccionar un archivo*, vaya a la ubicación donde guardó el archivo de Excel en el equipo.
+* Seleccione el archivo y elija `Importar`.
+
+El *servicio Power BI* importa los datos de ejemplo del archivo de Excel como un conjunto de datos y abre la página "Ejemplo financiero".
+
+```text
+Nota
+
+Antes de importar un archivo .xlsx al servicio Power BI, debemos de asegurarnos que la información
+que tiene este archivo o en su defecto, la información que necesitamos para los informes se encuentre
+en formato de tabla (si no está en este formato, el servicio de Power BI no detectará la información).
+
+Para convertir la información en formato de tabla, abrimos el archivo de excel y seleccionamos toda la
+información (Ctrl+E) y luego (Ctrl+T), para dar formato de tabla.
+```
 
 Ahora puede usar el conjunto de datos de ejemplo para crear informes y paneles.
 
-8. En la página Conjunto de datos de ejemplo financiero, en la parte superior, seleccione Crear un informe>Iniciar desde cero para abrir el editor de informes.
+* En la página `Conjunto de datos` del ejemplo financiero, en la parte superior, seleccione `+ Crear un informe` > `Empezar desde cero` para abrir el editor de informes.
 
-El servicio Power BI abre el nuevo informe en Mi área de trabajo. El lienzo del informe está en blanco y muestra los paneles Filtros, Visualizaciones y Datos.
+El servicio Power BI abre el nuevo informe en `Mi área de trabajo`. El lienzo del informe está en blanco y muestra los paneles `Filtros`, `Visualizaciones` y `Datos`.
 
 ## Cambiar entre las vistas del informe
 
-El nuevo informe se abre en la vista de Edición. Para ver el informe en curso, puede cambiar a la vista Lectura en la parte superior de la página:
+El nuevo informe se abre en la vista de `Edición`. Para ver el informe en curso, puede cambiar a la `Vista de Lectura` en la parte superior de la página.
 
-En la vista de edición puede crear y modificar los informes, ya que es el propietario y el creador del informe. Cuando comparte el informe con compañeros de trabajo, a menudo ellos solo pueden interactuar con el informe en la vista de lectura. Otros usuarios son consumidores de informes en su sección Mi área de trabajo.
+<center>
+    <img src='./../assets/images/Servicio_PowerBI/Session_00.png'>
+</center>
 
-Cuando esté listo para seguir trabajando en el informe, seleccione Editar:
+En la vista de edición puede *crear* y *modificar* los informes, ya que es el propietario y el creador del informe.
+
+```text
+Cuando comparte el informe con compañeros de trabajo, a menudo ellos solo pueden interactuar con
+el informe en la vista de lectura.
+```
+
+Otros usuarios son consumidores de informes en su sección `Mi área de trabajo`, cuando esté listo para seguir trabajando en el informe, seleccione `Editar`.
 
 ## Paso 2: Crear un gráfico en un informe
 
 Después de conectar los datos para compilar un informe, está listo para empezar a explorar. Cuando encuentre un elemento interesante, puede guardarlo en el lienzo del informe. Puede anclar el elemento a un panel para supervisar los datos de los cambios a lo largo del tiempo.
 
-Podemos empezar por agregar un gráfico de columnas al informe en el editor para crear una visualización de los datos.
+Podemos empezar por agregar un gráfico de *columnas* al informe en el editor para crear una visualización de los datos.
 
-1. En el panel Datos, seleccione la flecha situada junto al encabezado finanzas para mostrar los elementos de datos.
-  Algunos elementos de datos tienen un símbolo sigma (Σ) junto al nombre. Power BI muestra el sigma junto a los datos que tienen valores numéricos.
-2. En finanzas, seleccione el elemento de datos Ventas brutas y, a continuación, seleccione el elemento Fecha.
+* En el panel `Datos`, seleccione la flecha situada junto al encabezado finanzas para mostrar los elementos de datos.
+
+```text  
+Algunos elementos de datos tienen un símbolo sigma (Σ) junto al nombre. Power BI muestra el sigma
+junto a los datos que tienen valores numéricos.
+```
+
+* En finanzas, seleccione el elemento de datos Ventas brutas y, a continuación, seleccione el elemento Fecha.
   Power BI analiza los datos seleccionados y crea una visualización del gráfico de columnas.
 
 Nota
