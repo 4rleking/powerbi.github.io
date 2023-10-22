@@ -90,6 +90,10 @@ Cada vez que esta consulta se conecte al origen de datos, se ejecutan esos pasos
 para que los datos siempre tengan la forma especificada.
 ```
 
+<center>
+    <img src='./../assets/images/Desktop/Datos_03.png'>
+</center>
+
 ```text
 Nota Importante
 
@@ -101,7 +105,7 @@ se actualizan los informes en automatico, y no tener que enviar los informes cad
 actualizar en el Software Power BI Desktop.
 ```
 
-Tenga en cuenta que en `Pasos aplicados` en `Configuración` de la consulta ya se incluyen algunos pasos. 
+Tenga en cuenta que en `Pasos aplicados` en `Configuración` de la consulta ya se incluyen algunos pasos.
 
 Puede seleccionar cada paso para *ver su efecto* en el `Editor de Power Query`. En primer lugar, ha especificado un *origen web* y, después, ha visto una *vista previa* de la tabla en la ventana Navegador. En el tercer paso, `Tipo cambiado`, Power BI ha reconocido datos de número entero al importarlos y ha cambiado de forma automática el *Tipo de datos* "Texto web original" a "Números enteros".
 
@@ -121,17 +125,29 @@ un elemento y realizar una selección en el menú que aparece.
 
 Ahora puede aplicar cambios y transformaciones propios a los datos y verlos en `Pasos aplicados`.
 
+<center>
+    <img src='./../assets/images/Introduccion2/Session_03.png'>
+</center>
+
 Para obtener más información sobre cómo dar forma a los datos, vea [Combinar datos y darles forma en Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-shape-and-combine-data).
 
 ## Combinar datos
 
-Para importar los datos de las abreviaturas de estados en el Editor de Power Query, seleccione de la pestaña `Inicio` > `Nueva consulta` > `Nuevo origen` > `Web`.
+Para importar nuevos datos en el Editor de Power Query, seleccione de la pestaña `Inicio` > `Nueva consulta` > `Nuevo origen` > `Web`.
+
+<center>
+    <img src='./../assets/images/Introduccion2/Session_04.png'>
+</center>
 
 En la ventana Navegador, seleccione las tablas que necesita para complementar su informe y, después, seleccione `Aceptar`. La tabla se abre en el *Editor de Power Query*.
 
 Quite todas las columnas que no le *aporten utilidad*. Para conservar solo estas columnas, mantenga presionada la tecla `Ctrl` y selecciónelas. Después, haga clic con el botón derecho en uno de los encabezados de columna y seleccione `Quitar otras columnas`, o bien, la pestaña `Inicio` > `Administrar columnas` > `Quitar otras columnas`.
 
 Para quitar valores adicionales de la tabla haga clic en la flecha desplegable situada junto a la columna seleccionada y seleccione `Filtros` > `Es igual a`. En el cuadro de diálogo `Filtrar filas`, haga clic en el campo desplegable `Escribir` o seleccionar un valor situado junto a `es igual a` y seleccione la opción que necesite. Seleccione `Aceptar`.
+
+<center>
+    <img src='./../assets/images/Introduccion2/Session_05.png'>
+</center>
 
 Después de quitar valores adicionales. Puede cambiar el nombre de las columnas para que tengan más sentido, si hace clic con el botón derecho en los encabezados de columna y selecciona `Cambiar el nombre`.
 
@@ -140,7 +156,11 @@ Tenga en cuenta que todos estos pasos se registran en Pasos aplicados en el pane
 de la consulta.
 ```
 
-Cambie el título de la tabla en el campo `Propiedades` de Configuración de la consulta.
+Cambie el *título de la tabla* en el campo `Propiedades` de Configuración de la consulta.
+
+<center>
+    <img src='./../assets/images/Introduccion2/Session_06.png'>
+</center>
 
 Después de dar forma a la tabla, puede `combinar` estas dos tablas en una. Como las tablas que ahora tiene son el resultado de las consultas aplicadas a los datos, también se denominan `consultas`. Existen dos formas principales de combinar consultas: `combinar` y `anexar`.
 
@@ -151,26 +171,50 @@ Cuando tiene filas de datos adicionales que quiere agregar a una consulta existe
 se anexa.
 ```
 
-En este caso, quiere combinar la consulta Códigos de estado con la consulta Mejores estados para las ventas de gafas de sol. Para combinar las consultas, cambie a la consulta Mejores estados para las ventas de gafas de sol seleccionándola en el panel Consultas del lado izquierdo del Editor de Power Query. Después, seleccione Combinar consultas en el grupo Combinar de la pestaña Inicio de la cinta.
+Para combinar las consultas, cambie a la primer consulta seleccionándola en el panel `Consultas` del lado izquierdo del Editor de Power Query. Después, seleccione `Combinar consultas` en el grupo `Combinar` de la pestaña `Inicio` de la cinta.
 
-En la ventana Combinar, haga clic en el campo desplegable para seleccionar Códigos de estado en las otras consultas disponibles. Seleccione la columna que debe coincidir en cada tabla; en este caso Estado en la consulta Mejores estados para las ventas de gafas de sol y Nombre de estado en la consulta Códigos de estado.
+<center>
+    <img src='./../assets/images/Introduccion2/Session_07.png'>
+</center>
 
-Si aparece un cuadro de diálogo Niveles de privacidad, seleccione Ignorar las comprobaciones de los niveles de privacidad de este archivo y, después, seleccione Guardar. Seleccione Aceptar.
+```text
+Si aparece un cuadro de diálogo Niveles de privacidad, seleccione Ignorar las comprobaciones de
+los niveles de privacidad de este archivo y, después, seleccione Guardar. Seleccione Aceptar.
+```
 
-Aparecerá una nueva columna denominada Códigos de estado a la derecha de la tabla Mejores estados para la venta de gafas de sol. Contiene la consulta de código de estado que ha combinado con la consulta de mejores estados para la venta de gafas de sol. Todas las columnas de la tabla combinada se condensan en la columna Códigos de estado. Puede expandir la tabla combinada e incluir solo las columnas que quiera.
+Para expandir la tabla combinada y seleccionar qué columnas se van a incluir, seleccione el icono `Expandir` del encabezado de columna. En el cuadro de diálogo Expandir, seleccione solo la columna que necesita. Desactive `Usar el nombre de columna original como prefijo` y, después, seleccione Aceptar.
 
-Para expandir la tabla combinada y seleccionar qué columnas se van a incluir, seleccione el icono Expandir del encabezado de columna. En el cuadro de diálogo Expandir, seleccione solo la columna Abreviatura. Desactive Usar el nombre de columna original como prefijo y, después, seleccione Aceptar.
+<center>
+    <img src='./../assets/images/Introduccion2/Session_08.png'>
+</center>
 
+```text
 Nota
-Puede experimentar para ver cómo incorporar la tabla Códigos de estado. Experimente un poco y, si no le gustan los resultados, elimine ese paso de la lista Pasos aplicados en el panel Configuración de la consulta. Es una segunda oportunidad, que puede realizar tantas veces como sea necesario hasta que el proceso de expansión tenga la apariencia que busca.
+Puede experimentar para ver cómo incorporar datos entre diversas tablas. Experimente un poco y, si
+no le gustan los resultados, elimine ese paso de la lista "Pasos aplicados" en el panel Configuración
+de la consulta. Es una segunda oportunidad, que puede realizar tantas veces como sea necesario hasta
+que el proceso de expansión tenga la apariencia que busca.
+```
 
 Para obtener una descripción más completa de los pasos para dar forma a los datos y combinarlos, vea [Combinar datos y darles forma en Power BI Desktop](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-shape-and-combine-data).
 
-Ahora tiene una única tabla de consulta con dos orígenes de datos combinados, a los que se les ha dado forma para adecuarlos a sus necesidades. Esta consulta puede servir como base para conexiones de datos más interesantes, como datos demográficos, niveles de bienestar y oportunidades de ocio en los estados.
+```text
+Ahora tiene una única tabla de consulta con dos orígenes de datos combinados, a los que se les ha
+dado forma para adecuarlos a sus necesidades. Esta consulta puede servir como base para conexiones
+de datos más interesantes, como datos demográficos, niveles de bienestar y oportunidades de ocio en
+los estados.
+```
 
-Por ahora, tiene datos suficientes para crear un informe interesante en Power BI Desktop. Como se trata de un hito, aplique los cambios en el Editor de Power Query y, para cargarlos en Power BI Desktop, seleccione Cerrar y aplicar en la pestaña Inicio de la cinta. También puede seleccionar simplemente Aplicar para mantener abierta la consulta en el Editor de Power Query mientras trabaja en Power BI Desktop.
+Por ahora, tiene datos suficientes para crear un informe interesante en `Power BI Desktop`. Como se trata de un hito, aplique los cambios en el `Editor de Power Query` y, para cargarlos en Power BI Desktop, seleccione `Cerrar` y `aplicar` en la pestaña Inicio de la cinta.
 
-Puede realizar más cambios en una tabla después de cargarla en Power BI Desktop, y volver a cargar el modelo para aplicar los cambios que realice. Para volver a abrir el Editor de Power Query desde Power BI Desktop, seleccione Transformar datos en la pestaña Inicio de la cinta de Power BI Desktop.
+También puede seleccionar simplemente `Aplicar` para mantener abierta la consulta en el Editor de Power Query mientras trabaja en Power BI Desktop.
+
+Puede realizar más cambios en una tabla después de cargarla en Power BI Desktop, y volver a cargar el modelo para aplicar los cambios que realice.
+
+```text
+Para volver a abrir el Editor de Power Query desde Power BI Desktop, seleccione "Transformar datos"
+en la pestaña "Inicio" de la cinta de Power BI Desktop.
+```
 
 ## Elaborar informes
 
