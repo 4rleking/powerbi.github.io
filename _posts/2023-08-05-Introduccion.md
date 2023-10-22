@@ -38,9 +38,9 @@ Power BI Desktop integra tecnologías probadas del motor de consultas de Microso
 
 ## Instalar y ejecutar Power BI Desktop
 
-Para descargar Power BI Desktop, vaya a la [página de descarga de Power BI Desktop](https://powerbi.microsoft.com/desktop) y seleccione Descarga gratuita. O, para las opciones de descarga, seleccione [Consulte las opciones de descarga](https://www.microsoft.com/download/details.aspx?id=58494) o idiomas disponibles.
+Para descargar Power BI Desktop, vaya a la [página de descarga de Power BI Desktop](https://powerbi.microsoft.com/desktop) y seleccione *Descarga gratuita*. O, para las opciones de descarga, seleccione [Consulte las opciones de descarga](https://www.microsoft.com/download/details.aspx?id=58494) o idiomas disponibles.
 
-También puede descargar *Power BI Desktop* desde el servicio Power BI. Seleccione el icono Descargar en la barra del menú superior y, después, seleccione *Power BI Desktop*.
+También puede descargar *Power BI Desktop* desde el servicio Power BI. Seleccione el icono *Descargar* en la barra del menú superior y, después, seleccione *Power BI Desktop*.
 
 En la página de Microsoft Store, seleccione *Obtener* y siga las indicaciones para instalar *Power BI Desktop* en el equipo. Inicie Power BI Desktop desde el menú Inicio de Windows o desde el icono de la barra de tareas de Windows.
 
@@ -97,7 +97,7 @@ para que los datos siempre tengan la forma especificada.
 ```text
 Nota Importante
 
-Este proceso se produce siempre que se usa la consulta en *Power BI Desktop*, o bien cuando alguien
+Este proceso se produce siempre que se usa la consulta en Power BI Desktop, o bien cuando alguien
 más use la consulta compartida, como en el servicio Power BI.
 
 La importancia de utilizar el servicio Power BI, con licencia PRO, es que por medio de este servicio
