@@ -144,47 +144,54 @@ Después de anclar una visualización, se ancla en el panel como un icono. Los d
 
 ```text
 Nota
-Después de anclar una visualización, si cambia el tipo de visualización del informe después de anclarla, la visualización anclada en el panel no cambiará. Para ver la nueva visualización, ánclela al panel para crear otro icono. El uso de varios iconos le permite tener más de una visualización de los mismos datos en el panel.
+Después de anclar una visualización, si cambia el tipo de visualización del informe después de
+anclarla, la visualización anclada en el panel no cambiará. Para ver la nueva visualización, ánclela
+al panel para crear otro icono. El uso de varios iconos le permite tener más de una visualización de
+los mismos datos en el panel.
 ```
 
-8. Ahora seleccione el icono en el panel:
-  El servicio Power BI le devuelve al editor de informes, donde puede refinar la visualización
-  Puede seleccionar Editar para volver a la vista de edición y continuar explorando y anclando iconos.
+* Ahora seleccione el icono en el panel.
+
+```text
+El servicio Power BI le devuelve al editor de informes, donde puede refinar la visualización
+```
+
+Puede seleccionar `Editar` para volver a la vista de edición y continuar explorando y anclando iconos.
 
 ## Paso 3: Explorar visualizaciones con Preguntas y respuestas
 
-Para realizar una exploración rápida de los datos, pruebe a formular una pregunta en el cuadro Preguntas y respuestas. Preguntas y respuestas le permite formular consultas en lenguaje natural sobre los datos.
-
-En el servicio Power BI, puede encontrar el cuadro de Preguntas y respuestas en dos lugares.
-
-* En un panel, el cuadro de Preguntas y respuestas Formular una pregunta sobre los datos se encuentra en la parte superior de la vista de mosaico:
-* En el editor de informes, el cuadro de Preguntas y respuestas Formular una pregunta se encuentra en la barra de menús superior:
+Para realizar una exploración rápida de los datos, pruebe a formular una pregunta en el cuadro `Preguntas y respuestas`. Preguntas y respuestas le permite formular consultas en lenguaje natural sobre los datos.
 
 Al seleccionar el cuadro de Preguntas y respuestas, Power BI abre una vista extendida para ayudarle a formular preguntas y encontrar respuestas.
 
 Vamos a probar la experiencia de Preguntas y respuestas para un panel.
 
-1. En el servicio Power BI, seleccione Mi área de trabajo y, a continuación, seleccione el panel de Ejemplo financiero.
-2. En la parte superior de la vista de mosaico, seleccione Hacer una pregunta sobre los datos. La vista se expande y Preguntas y respuestas ofrece varias sugerencias.
-  Puede seleccionar una sugerencia y ver los resultados o escribir su propia pregunta en el cuadro de Preguntas y respuestas.
-3. En el cuadro de Preguntas y respuestas, escriba la pregunta cuál es la venta promedio. A medida que escribe, Preguntas y respuestas intenta hacer coincidir la entrada de texto con las preguntas reconocidas.
-  Preguntas y respuestas busca una respuesta y la presenta como una visualización de una tarjeta.
-4. En la parte superior derecha, seleccione Anclar visualización y ancle esta visualización al panel de Ejemplo financiero.
-5. Pruebe otra pregunta en el cuadro de Preguntas y respuestas. Escriba beneficio total por país.
-6. Ancle la visualización del mapa de país o región al panel de Ejemplo financiero.
-7. En el cuadro de diálogo correcto, seleccione Ir al panel para ver los iconos recién anclados en el panel.
-8. En el panel, seleccione el mapa de país o región anclado. Observe cómo se abre la visualización en Preguntas y respuestas.
-9. En el cuadro Preguntas y respuestas, coloque el cursor después de por país y escriba como barra. Power BI crea un gráfico de barras con los resultados.
-10. Ancle el gráfico de barras al panel de Ejemplo financiero.
-11. En la parte superior, seleccione Salir de Preguntas y respuestas para volver al panel.
+* En el servicio Power BI, seleccione `Mi área de trabajo` y, a continuación, seleccione el panel de `Ejemplo financiero`.
+* En la parte superior de la vista de mosaico, seleccione `Hacer una pregunta sobre los datos`. La vista se expande y Preguntas y respuestas ofrece varias sugerencias.
+  
+```text  
+Puede seleccionar una sugerencia y ver los resultados o escribir su propia pregunta en el
+cuadro de Preguntas y respuestas.
+```
+
+* En el cuadro de Preguntas y respuestas, escriba la pregunta cuál es la venta promedio. A medida que escribe, Preguntas y respuestas intenta hacer coincidir la entrada de texto con las preguntas reconocidas.
+
+```text
+Preguntas y respuestas busca una respuesta y la presenta como una visualización de una tarjeta.
+```
+
+* En la parte superior derecha, seleccione Anclar visualización y ancle esta visualización al panel de Ejemplo financiero.
+* Pruebe otra pregunta en el cuadro de Preguntas y respuestas. Escriba beneficio total por país.
+* Ancle la visualización del mapa de país o región al panel de Ejemplo financiero.
+* En el cuadro de diálogo correcto, seleccione Ir al panel para ver los iconos recién anclados en el panel.
 
 Ahora tiene cuatro iconos anclados en el panel: gráfico de líneas, promedio numérico, mapa de país o región y gráfico de barras.
 
 ### Anclar vistas diferentes de datos con varios iconos
 
-Tenga en cuenta que, aunque cambió la visualización de mapa a un gráfico de barras en Preguntas y respuestas, el icono correspondiente en el panel sigue apareciendo un mapa.
+Tenga en cuenta que, aunque cambió la visualización de mapa a un gráfico de barras en *Preguntas y respuestas*, el icono correspondiente en el panel sigue apareciendo un mapa.
 
-Al anclar un icono a un panel, el icono siempre muestra los datos mediante el tipo de visualización original. Si cambia el tipo de visualización de un icono existente y ancla el icono, Power BI crea un nuevo icono con el nuevo tipo de visualización. El icono original permanece sin cambios. El uso de varios iconos le permite tener más de una visualización de los mismos datos en el panel.
+Al anclar un icono a un panel, el icono siempre muestra los datos mediante el tipo de visualización original. Si cambia el tipo de visualización de un icono existente y ancla el icono, *Power BI* crea un nuevo icono con el nuevo tipo de visualización. El icono original permanece sin cambios. El uso de varios iconos le permite tener más de una visualización de los mismos datos en el panel.
 
 ## Paso 4: Ajustar el diseño del icono en el panel
 
@@ -204,7 +211,7 @@ Ahora los dos iconos tienen la misma altura.
 
 A veces, cambiar los detalles del icono puede mejorar la presentación del panel.
 
-1. En el icono Promedio de ventas, seleccione Más opciones (...)>Editar detalles.
+1. En el icono Promedio de ventas, seleccione `Más opciones(...)` > `Editar detalles`.
 2. En el cuadro de diálogo Detalles del icono, en el cuadro Título, escriba Promedio de ventas.
 3. Seleccione Aplicar.
 
